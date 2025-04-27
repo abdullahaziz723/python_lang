@@ -11,4 +11,5 @@ l1.remove(100) #remove method is used to remove the element from the list
 print(l1) #remove method is used to remove the element from the list
 l1.pop(2) #pop method is used to remove the element from the specified index    
 print(l1) #pop method is used to remove the element from the specified index
-
+l1.remove(3213)
+print(l1)
