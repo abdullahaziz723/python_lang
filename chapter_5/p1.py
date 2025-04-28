@@ -1,0 +1,17 @@
+s=set()
+n= input("entera nummber")
+s.add(int(n))
+n= input("entera nummber")
+s.add(int(n))
+n= input("entera nummber")
+s.add(int(n))
+n= input("entera nummber")
+s.add(int(n))
+n= input("entera nummber")
+s.add(int(n))
+n= input("entera nummber")
+s.add(int(n))
+n= input("entera nummber")
+s.add(int(n))
+
+print(s)#it will print unique values
