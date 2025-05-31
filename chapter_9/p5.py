@@ -1,5 +1,5 @@
 
-
+#copy content of one file to another
 with open("note.txt") as f:
     content=f.read()
 
