@@ -1,8 +1,8 @@
 import qrcode
 
 # Personal message to encode
-message = '''Hello! This is a Me Again pglu😃😛,made this to dsiturb and cheer you for your studies!✨ !!Stay happy, stay amazing,sab sahi hoga panda!!(From stupid😄)  ''' 
-
+# message = '''Hello! This is a Me Again pglu😃😛,made this to dsiturb and cheer you for your studies!✨ !!Stay happy, stay amazing,sab sahi hoga panda!!(From stupid😄)  ''' 
+message='''Hello Garima ! I am writing this msg to asking for some help regaring purchasing of IEEE membership if possible ,if u could help again it will be great,if not no problem,just wanted to ask you if you could help me out with this,if possible,thanks a lot!😊 !!namaste!!'''
 # Create QR Code instance
 qr = qrcode.QRCode(
     version=1,
