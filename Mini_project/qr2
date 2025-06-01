@@ -1,0 +1,23 @@
+import qrcode
+
+# Personal message to encode
+message = '''Hello! This is a Me Again pglu😃😛,made this to dsiturb and cheer you for your studies!✨ !!Stay happy, stay amazing,sab sahi hoga panda!!(From stupid😄)  ''' 
+
+# Create QR Code instance
+qr = qrcode.QRCode(
+    version=1,
+    error_correction=qrcode.constants.ERROR_CORRECT_L,
+    box_size=10,
+    border=4,
+)
+
+# Add message as plain text
+qr.add_data(message)
+qr.make(fit=True)
+
+# Generate the QR code
+img = qr.make_image(fill_color="black", back_color="white")
+
+# Show or save
+img.show()  # Display the QR code
+# img.save("personal_msg_qr.png")  # Uncomment to save as image

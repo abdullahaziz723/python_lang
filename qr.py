@@ -1,6 +1,6 @@
 import qrcode
 # Data to encode
-data =qrcode.make("https://github.com/abdullahaziz723") 
+data =qrcode.make("https://polite-queijadas-0aa65d.netlify.app/") 
 
 data.show()
 
